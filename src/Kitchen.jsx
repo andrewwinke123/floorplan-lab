@@ -1,5 +1,5 @@
 import Oven from "./Oven"
-import Sink from "./assets/Sink"
+import Sink from "./Sink"
 
 const Kitchen = () => {
   return (

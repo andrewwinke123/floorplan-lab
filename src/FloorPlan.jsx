@@ -7,15 +7,15 @@ import Patio from "./Patio"
 
 function FloorPlan(props) {
   return (
-    <>
-    <h1>Floor Plan</h1>
-      <LivingRoom/>
-      <Kitchen/>
-      <Bedroom bedNum="3"/>
-      <Bath size="Full"/>
-      <Bath size="Half"/>
-      <Patio/>
-    </>
+    <div>
+      <h1>Floor Plan</h1>
+        <LivingRoom/>
+        <Kitchen/>
+        <Bedroom bedNum="3"/>
+        <Bath size="Full"/>
+        <Bath size="Half"/>
+        <Patio/>
+    </div>
   )
 }
 
